@@ -1,3 +1,57 @@
 .env
 *.env
 ai-news-summarizer/backend/.env
+ai-news-summarizer/backend/.env
+ai-news-summarizer/backend/.env.example
+ai-news-summarizer/backend/__pycache__/main.cpython-311.pyc
+ai-news-summarizer/pyproject.toml
+ai-news-summarizer/uv.lock
+
+# ======================
+# ENV FILES
+# ======================
+.env
+.env.*
+!.env.example
+
+# ======================
+# PYTHON
+# ======================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+
+# virtual environments
+.venv/
+venv/
+env/
+
+# ======================
+# NODE / FRONTEND
+# ======================
+node_modules/
+dist/
+build/
+.vite/
+
+# ======================
+# SYSTEM FILES
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# IDE
+# ======================
+.vscode/
+.idea/
+
+# ======================
+# LOCK FILES (optional)
+# ======================
+# Keep if you want reproducibility, else ignore
+uv.lock
+package-lock.json
